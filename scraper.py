@@ -93,8 +93,8 @@ def main():
     driver.quit()
 
     detail = pd.DataFrame(students_data, columns=['Student Name', 'Student ID', 'SGPA', 'CGPA'])
-    detail.to_excel('students_data.xlsx', index=False)
-    print("Data has been successfully saved to students_data.xlsx")
+    detail.to_excel('example.xlsx', index=False)
+    print("Data has been successfully saved to example.xlsx")
 
 if __name__ == "__main__":
     main()
